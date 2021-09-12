@@ -1,6 +1,8 @@
-# typeorm-model-inheritance-training
+# typeorm-model-inheritance-dynamic-attributes
 
 Experimenting with the persistence of data model inheritance with TypeORM (actually do not support Class Table Inheritance)
+
+Commmon attributes are stored into WidgetEntity
 
 Steps to run this project:
 
