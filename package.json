@@ -1,0 +1,23 @@
+{
+   "name": "typeorm-model-inheritance-dynamic-attributes",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/node": "^16.9.1",
+      "ts-node": "^10.2.1",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "mysql": "^2.14.1",
+      "reflect-metadata": "^0.1.13",
+      "ts-reflection": "^0.3.0",
+      "ttypescript": "^1.5.12",
+      "typeorm": "0.2.37"
+   },
+   "scripts": {
+      "start": "ts-node --compiler ttypescript src/index.ts",
+      "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js",
+      "start-db": "docker-compose up",
+      "stop-db": "docker-compose down"
+   }
+}
